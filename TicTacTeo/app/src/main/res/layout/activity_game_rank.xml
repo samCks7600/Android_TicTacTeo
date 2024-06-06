@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/gamerank"
+    tools:context=".GameRankActivity">
+
+
+    <TextView
+        android:id="@+id/headingText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Game Ranking"
+        android:textAlignment="center"
+        android:paddingTop="15dp"
+        android:fontFamily="@font/press_start_2p"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+
+        />
+
+    <ListView
+        android:id="@+id/RankList"
+        android:layout_width="match_parent"
+        android:layout_height="600dp" />
+
+    <Button
+        android:id="@+id/btn_GoBack"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:onClick="GoBack"
+        android:layout_gravity="center"
+        android:fontFamily="@font/press_start_2p"
+        android:paddingTop="10dp"
+        android:text="Go Back"
+        android:textColor="@color/black"
+        android:background="@drawable/button"
+        app:backgroundTint="@null"
+        />
+
+
+
+</LinearLayout>

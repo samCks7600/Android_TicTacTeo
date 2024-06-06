@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gamerank"
+    tools:context=".PlayerRecordActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:text="Your Record"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:paddingTop="15dp"
+        android:fontFamily="@font/press_start_2p"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/btn_ShowChart"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:onClick="ShowChart"
+        android:layout_gravity="center"
+        android:text="SHOW IN PIE CHART"
+        android:textColor="@color/black"
+        android:background="@drawable/button"
+        app:backgroundTint="@null"
+        android:paddingTop="15dp"
+        android:fontFamily="@font/press_start_2p"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:id="@+id/RecordList"
+        />
+
+
+    <Button
+        android:id="@+id/btn_GoBack"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="GoBack"
+        android:text="Go Back"
+
+        android:paddingTop="15dp"
+        android:fontFamily="@font/press_start_2p"
+        android:textColor="@color/black"
+        android:background="@drawable/button"
+        app:backgroundTint="@null"
+        />
+
+</LinearLayout>

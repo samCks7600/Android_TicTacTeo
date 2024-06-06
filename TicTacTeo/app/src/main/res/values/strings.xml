@@ -1,0 +1,15 @@
+<resources>
+    <!-- MainActivity-->
+    <string name="app_name">TicTacTeo</string>
+    <string name="txt_GameTitle">Tic-Tac-Teo</string>
+    <string name="btn_Play">Play</string>
+    <string name="btn_GameRank">Game Ranking</string>
+    <string name="btn_YourRecord">Your Records</string>
+    <string name="btn_Close">Close</string>
+
+    <!-- GameActivity-->
+    <string name="txt_GameHeading">You O VS CPU X</string>
+    <string name="txt_WinText"></string>
+    <string name="btn_continue">Continue</string>
+
+</resources>
